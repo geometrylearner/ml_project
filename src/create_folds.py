@@ -1,3 +1,7 @@
+# The validation is running to rival the over-fitting for any training algrorithmn, then it's absolutly neccessary;
+# The cross-validation is also neccessary, since only one partition of dataset into training set and validation set will
+# failed in many cases;
+
 # This script is used to create cross-validation dataset as a pathology of data augmentation;
 '''
 The approach to cross validation here is addting fold index to the dataframe while the dataframes being as validation dataset;

@@ -8,7 +8,7 @@ import joblib
 
 from . import dispatcher
 
-MODEL = os.environ.get("MODEL") # The value of MODEL comes from the shebang script run.sh where MODEL=$1 that is the first variable after run.sh in shell;
+MODEL = os.environ.get("MODEL") # MODEL = run.sh $1 a string;
 TEST_DATA = os.environ.get("TEST_DATA")
 TRAINING_DATA = os.environ.get("TRAINING_DATA")
 FOLD = int(os.environ.get("FOLD")) # The int type must be applied, otherwise the .get([FOLD]) is null;
